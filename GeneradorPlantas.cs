@@ -6,9 +6,9 @@ public class GeneradorPlantas : MonoBehaviour
 
     public Transform sueloBase;
 
-    public float tamaÃ±oAreaX = 40f;
+    public float tamañoAreaX = 40f;
 
-    public float tamaÃ±oAreaZ = 40f;
+    public float tamañoAreaZ = 40f;
 
     public float tiempoGeneracion = 20f;
 
@@ -40,14 +40,14 @@ public class GeneradorPlantas : MonoBehaviour
 
         float x =
             Random.Range(
-                -tamaÃ±oAreaX / 2f,
-                tamaÃ±oAreaX / 2f
+                -tamañoAreaX / 2f,
+                tamañoAreaX / 2f
             );
 
         float z =
             Random.Range(
-                -tamaÃ±oAreaZ / 2f,
-                tamaÃ±oAreaZ / 2f
+                -tamañoAreaZ / 2f,
+                tamañoAreaZ / 2f
             );
 
         Vector3 posicion =
